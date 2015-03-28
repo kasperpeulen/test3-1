@@ -22,6 +22,10 @@ nav li {
     display: inline-block;
 }
 
+ul {
+    padding:0;
+}
+
 /***NEWS***/
 #news {
     margin: 0;
