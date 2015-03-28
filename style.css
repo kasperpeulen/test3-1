@@ -1,0 +1,82 @@
+body {
+    color: #414141;
+    background-image: url("achtergrond.png");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: #000000;
+    font-family: arial, verdana, sans-serif;}
+
+/***HEADING***/
+header {
+    background-color: white;
+    /*position:fixed;*/
+    text-align: center;
+    /*left: -4px
+    top: 0px;
+    right: -4px;*/
+    border-style:solid; border-width:3px; border-color:#000000;
+}
+
+
+nav li {
+    display: inline-block;
+}
+
+/***NEWS***/
+#news {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0.65;
+}
+
+#news li {
+    float: inherit;
+    width: 90%;
+    margin: 5%;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+section h3 {
+    color: #FFFFFF;
+    background-color: #414141;
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+    margin: 5%;
+    margin-top: 60px;
+    margin-bottom:-10px;
+    padding 2.5%;
+}
+#news h4 {
+    font-size:1em;
+    padding: 2.5%;
+    margin-bottom: -1.5em;
+}
+
+#news li p {
+    margin-bottom: -10px;
+    padding: 2.5%;
+    font-size: 0.75em;
+    color: #3e5544
+}
+
+/***FOOTER***/
+
+
+#tes {
+    text-align: center;
+    background-color:#414141;
+    height:17.5px;
+    margin: 5%;
+    padding:1.5%;
+}
+
+#tes li {
+    color: white;
+    margin-top: -20px;
+    display:inline-block;
+    list-style:none;
+ }
+
